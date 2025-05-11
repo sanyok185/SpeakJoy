@@ -6,8 +6,8 @@
 		<link rel="preload" href="./assets/fonts/Coolvetica-Rg.woff2" as="font" type="font/woff2" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/img/favicon.ico">
 		<title>SpeakJoy</title>
-		<script type="module" crossorigin="" src="./js/index.min.js?v=1746860585844"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1746860585844">
+		<script type="module" crossorigin="" src="./js/index.min.js?v=1746966481909"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/index.min.css?v=1746966481909">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -20,20 +20,20 @@
 						<div class="header__menu menu">
 							<nav class="menu__body">
 								<ul class="menu__list">
-									<li class="menu__item">
-										<a href="#" class="menu__link">Про школу</a>
+									<li data-fls-scrollto=".comunity" class="menu__item">
+										<a href="" class="menu__link">Про школу</a>
 									</li>
-									<li class="menu__item">
-										<a href="#" class="menu__link">Переваги</a>
+									<li data-fls-scrollto=".benefits" class="menu__item">
+										<a href="" class="menu__link">Переваги</a>
 									</li>
-									<li class="menu__item">
-										<a href="#" class="menu__link">Програми</a>
+									<li data-fls-scrollto=".course" class="menu__item">
+										<a href="" class="menu__link">Програми</a>
 									</li>
-									<li class="menu__item">
-										<a href="#" class="menu__link">Відгуки</a>
+									<li data-fls-scrollto=".stories" class="menu__item">
+										<a href="" class="menu__link">Відгуки</a>
 									</li>
-									<li class="menu__item">
-										<a href="#" class="menu__link">Звіти</a>
+									<li data-fls-scrollto=".try" class="menu__item">
+										<a href="" class="menu__link">Звіти</a>
 									</li>
 								</ul>
 								<div class="menu__actions">
@@ -88,18 +88,21 @@
 				<section class="page__hero hero">
 					<div class="hero__container">
 						<div class="hero__content">
-							<h1 class="hero__title">
-								Говорити вільно – це
-								<div>
-									суперсила.
-									<img src="./assets/img/Hero/star.svg" alt="Image">
+							<h1 class="hero__title .animated-text">
+								<div class="hero__title--line" data-fls-watcher="">
+									Говорити вільно – це
+									<div class="hero__title--power">
+										суперсила.
+										<img src="./assets/img/Hero/star.svg" alt="Image">
+									</div>
 								</div>
-								<br>
-								Розкрийте її разом з онлайн-школою
-								<span>SpeakJoy</span>
-								.
+								<div class="hero__title--line" data-fls-watcher="">
+									Розкрийте її разом з онлайн-школою
+									<span>SpeakJoy</span>
+									.
+								</div>
 							</h1>
-							<div class="hero__text">
+							<div class="hero__text" data-fls-watcher="">
 								Ми допомагаємо вивчати англійську та німецьку легко, цікаво та
 					ефективно. Наші студенти отримують сертифікати міжнародного
 					зразка, вивчають мову з досвідченими викладачами та носіями, а
@@ -109,10 +112,10 @@
 					впевнено.
 							</div>
 							<div class="hero__actions">
-								<button data-fls-button="" type="button" class="hero__button button button--violet">Записатись на урок</button>
-								<button type="button" class="hero__help --icon-link">Отримати допомогу</button>
+								<button data-fls-watcher="" data-fls-button="" type="button" class="hero__button button button--violet">Записатись на урок</button>
+								<button type="button" class="hero__help --icon-link" data-fls-watcher="">Отримати допомогу</button>
 							</div>
-							<div class="hero__free" data-fls-dynamic=".hero__images, 990">
+							<div class="hero__free" data-fls-dynamic=".hero__images, 990" data-fls-watcher="">
 								<div class="hero__subtitle">
 									SpeakJoy допомагає відновити життя через освіту. Ми надаємо
 						безкоштовні курси або уроки англійської та німецької мов, якщо
@@ -145,7 +148,7 @@
 									<img alt="Background" class="hero__bg--mobile" src="./assets/img/Hero/bg-vector--mobile.webp">
 								</picture>
 							</div>
-							<div class="hero__woman">
+							<div class="hero__woman" data-fls-watcher="">
 								<picture>
 									<source media="(max-width: 600px)" srcset="./assets/img/Hero/woman-600.webp" type="image/webp">
 									<source media="(max-width: 1200px)" srcset="./assets/img/Hero/woman-1200.webp" type="image/webp">
@@ -170,19 +173,19 @@
 					<div class="comunity__container">
 						<div class="comunity__body">
 							<div class="comunity__content">
-								<h1 class="comunity__title title title--white">
+								<h1 class="comunity__title title title--white" data-fls-watcher="">
 									SpeakJoy – більше, ніж школа. Це
 									<span>спільнота.</span>
 									<svg data-fls-mouse="" data-fls-mouse-cx="30" data-fls-mouse-cy="25" width="57" height="45" viewbox="0 0 57 45" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M54.0493 2.92308L18.7114 3.78251L26.0377 12.1212L2.84083 24.7595C2.84083 24.7595 7.6927 27.3945 11.3399 31.799C14.987 36.2036 16.8048 42.4492 16.8048 42.4492L36.2703 24.2883L41.2512 35.2255L54.0493 2.92308Z" stroke="#EBDC95" stroke-width="5" stroke-linejoin="round"></path>
 									</svg>
 								</h1>
-								<div class="comunity__text text">
+								<div class="comunity__text text" data-fls-watcher="">
 									Ми працюємо, щоб кожен мав доступ до якісної освіти. Наша
 						місія – допомогти вам досягти мовних цілей, незалежно від
 						життєвих обставин.
 								</div>
-								<button data-fls-button="" type="submit" class="comunity__button button --icon-link">
+								<button data-fls-watcher="" data-fls-button="" type="submit" class="comunity__button button --icon-link">
 									Спробувати зараз
 									<svg data-fls-mouse="" data-fls-mouse-dxr="" data-fls-mouse-dyr="" viewbox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M1.68975 28.3402C24.4116 37.3617 39.8323 19.6164 35.7441 10.9983C31.9118 2.91979 19.6767 5.93722 14.2373 10.5933C9.06242 15.0229 12.1438 19.746 17.1489 16.1315C23.2398 11.7328 24.0341 5.6756 22.588 2.37945M1.68975 28.3402L10.8658 24.7653M1.68975 28.3402L3.66102 36.3416" stroke="#FFF0E0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -222,13 +225,16 @@
 				<section class="page__about about">
 					<div class="about__container">
 						<div class="about__items">
-							<aricle class="about__item item-about">
+							<aricle class="about__item item-about" data-fls-watcher="">
 								<div class="item-about__bg"></div>
 								<div class="item-about__content">
 									<h5 class="item-about__title">15 000 успішних уроків</h5>
 									<div class="item-about__images">
 										<svg width="241" height="244" viewbox="0 0 241 244" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path d="M187.756 171.588L129.198 -0.650918M187.756 171.588L23.5061 154.27M187.756 171.588L41.133 44.3096M187.756 171.588L217.007 64.9807M187.756 171.588L87.4551 220.359" stroke="#D1B7FF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
+										</svg>
+										<svg width="156" height="172" viewbox="0 0 156 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M119.169 123.708L83.5062 18.5407M119.169 123.708L18.8485 113.231M119.169 123.708L29.684 46.0568M119.169 123.708L137.104 58.574M119.169 123.708L57.8707 153.558" stroke="#D1B7FF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"></path>
 										</svg>
 										<img class="item-about__icon" src="./assets/img/About/pencil.svg" alt="Icon">
 										<div class="item-about__image">
@@ -241,11 +247,14 @@
 									</div>
 								</div>
 							</aricle>
-							<aricle class="about__item item-about">
+							<aricle class="about__item item-about" data-fls-watcher="">
 								<h5 class="item-about__title">Висока якість навчання</h5>
 								<div class="item-about__images">
 									<svg width="240" height="243" viewbox="0 0 240 243" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M187.689 170.406L129.123 -1.93946M187.689 170.406L23.4385 153.069M187.689 170.406L41.06 43.0437M187.689 170.406L216.935 63.7359M187.689 170.406L87.3908 219.201" stroke="#FF8E32" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+									<svg width="155" height="172" viewbox="0 0 155 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M118.452 123.269L82.7967 18.1042M118.452 123.269L18.1322 112.8M118.452 123.269L28.9727 45.6245M118.452 123.269L136.391 58.1337M118.452 123.269L57.1512 153.124" stroke="#FF8E32" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 									<img class="item-about__icon" src="./assets/img/About/globe.svg" alt="Icon">
 									<div class="item-about__image">
@@ -257,11 +266,14 @@
 									</div>
 								</div>
 							</aricle>
-							<aricle class="about__item item-about">
+							<aricle class="about__item item-about" data-fls-watcher="">
 								<h5 class="item-about__title">Сертифікати після завершення навчання</h5>
 								<div class="item-about__images">
 									<svg width="240" height="243" viewbox="0 0 240 243" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M187.689 170.406L129.123 -1.93946M187.689 170.406L23.4385 153.069M187.689 170.406L41.06 43.0437M187.689 170.406L216.935 63.7359M187.689 170.406L87.3908 219.201" stroke="#FF8E32" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+									<svg width="155" height="172" viewbox="0 0 155 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M118.452 123.269L82.7967 18.1042M118.452 123.269L18.1322 112.8M118.452 123.269L28.9727 45.6245M118.452 123.269L136.391 58.1337M118.452 123.269L57.1512 153.124" stroke="#FF8E32" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 									<img class="item-about__icon" src="./assets/img/About/notebook.svg" alt="Icon">
 									<div class="item-about__image">
@@ -273,11 +285,14 @@
 									</div>
 								</div>
 							</aricle>
-							<aricle class="about__item item-about">
+							<aricle class="about__item item-about" data-fls-watcher="">
 								<h5 class="item-about__title">Підтримка фонду Near для тих, хто потребує</h5>
 								<div class="item-about__images">
 									<svg width="240" height="243" viewbox="0 0 240 243" fill="none" xmlns="http://www.w3.org/2000/svg">
 										<path d="M187.689 170.406L129.123 -1.93946M187.689 170.406L23.4385 153.069M187.689 170.406L41.06 43.0437M187.689 170.406L216.935 63.7359M187.689 170.406L87.3908 219.201" stroke="#FF8E32" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
+									</svg>
+									<svg width="155" height="172" viewbox="0 0 155 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M118.452 123.269L82.7967 18.1042M118.452 123.269L18.1322 112.8M118.452 123.269L28.9727 45.6245M118.452 123.269L136.391 58.1337M118.452 123.269L57.1512 153.124" stroke="#FF8E32" stroke-width="36" stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 									<img class="item-about__icon" src="./assets/img/About/backpack.svg" alt="Icon">
 									<div class="item-about__image">
@@ -295,20 +310,20 @@
 				<section class="page__crypto crypto">
 					<div class="crypto__container">
 						<div class="crypto__content">
-							<h2 class="crypto__title title">
+							<h2 class="crypto__title title" data-fls-watcher="">
 								Вчись і
 								<b>заробляй</b>
 								<span>криптовалюту,</span>
 								адже кожен
 					студент – це інвестор у власні знання!
 							</h2>
-							<div class="crypto__text text">
+							<div class="crypto__text text" data-fls-watcher="">
 								Кожен студент отримує персональний криптовалютний гаманець. За
 					успіхи в навчанні ви отримуєте токени, які можна використати для
 					оплати курсів або додаткових уроків. Це просто, безпечно та
 					вигідно. Навчайся з мотивацією!
 							</div>
-							<button data-fls-button="" type="button" class="crypto__button button button--violet --icon-link">Приєднатись до навчання</button>
+							<button data-fls-watcher="" data-fls-button="" type="button" class="crypto__button button button--violet --icon-link">Приєднатись до навчання</button>
 						</div>
 						<div class="crypto__images">
 							<picture>
@@ -328,62 +343,62 @@
 				</section>
 				<section class="page__benefits benefits">
 					<div class="benefits__container">
-						<h2 class="benefits__title title">
+						<h2 class="benefits__title title" data-fls-watcher="">
 							Ми знаємо, як зробити ваше навчання
 							<span>успішним</span>
 						</h2>
 						<div class="benefits__items">
-							<div class="benefits__item item-benefits">
+							<div class="benefits__item item-benefits" data-fls-watcher="">
 								<div class="item-benefits__body">
 									<div class="item-benefits__name">Гнучкий графік:</div>
 									<div class="item-benefits__text">Навчайтеся коли зручно, адже ви самі обираєте розклад.</div>
 								</div>
-								<img src="./assets/img/Benefits/01.svg" alt="Icon">
+								<img data-fls-mouse="" data-fls-mouse-dxr="" src="./assets/img/Benefits/01.svg" alt="Icon">
 								<svg width="219" height="159" viewbox="0 0 219 159" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M202.16 -25.0186L23.4816 9.1773M202.16 -25.0186L162.312 135.262M202.16 -25.0186L55.8419 102.61M202.16 -25.0186L100.617 -68.7208M202.16 -25.0186L236.603 81.059" stroke="#EFEDFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</div>
-							<div class="benefits__item item-benefits">
+							<div class="benefits__item item-benefits" data-fls-watcher="">
 								<div class="item-benefits__body">
 									<div class="item-benefits__name">Досвідчені викладачі:</div>
 									<div class="item-benefits__text">Заняття проводять професіонали та носії мови.</div>
 								</div>
-								<img src="./assets/img/Benefits/02.svg" alt="Icon">
+								<img data-fls-mouse="" src="./assets/img/Benefits/02.svg" alt="Icon">
 								<svg width="219" height="159" viewbox="0 0 219 159" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M202.16 -25.0186L23.4816 9.1773M202.16 -25.0186L162.312 135.262M202.16 -25.0186L55.8419 102.61M202.16 -25.0186L100.617 -68.7208M202.16 -25.0186L236.603 81.059" stroke="#F5EDFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</div>
-							<div class="benefits__item item-benefits">
+							<div class="benefits__item item-benefits" data-fls-watcher="">
 								<div class="item-benefits__body">
 									<div class="item-benefits__name">Перевірені методики:</div>
 									<div class="item-benefits__text">15 000+ успішних уроків, які дають результат.</div>
 								</div>
-								<img src="./assets/img/Benefits/03.svg" alt="Icon">
+								<img data-fls-mouse="" data-fls-mouse-dxr="" src="./assets/img/Benefits/03.svg" alt="Icon">
 								<svg width="219" height="159" viewbox="0 0 219 159" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M202.16 -25.0186L23.4816 9.1773M202.16 -25.0186L162.312 135.262M202.16 -25.0186L55.8419 102.61M202.16 -25.0186L100.617 -68.7208M202.16 -25.0186L236.603 81.059" stroke="#EFEDFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</div>
-							<div class="benefits__item item-benefits">
+							<div class="benefits__item item-benefits" data-fls-watcher="">
 								<div class="item-benefits__body">
 									<div class="item-benefits__name">Підтримка куратора 24/7:</div>
 									<div class="item-benefits__text">Вирішуємо питання, допомагаємо та відстежуємо прогрес.</div>
 								</div>
-								<img src="./assets/img/Benefits/04.svg" alt="Icon">
+								<img data-fls-mouse="" src="./assets/img/Benefits/04.svg" alt="Icon">
 								<svg width="219" height="159" viewbox="0 0 219 159" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M202.16 -25.0186L23.4816 9.1773M202.16 -25.0186L162.312 135.262M202.16 -25.0186L55.8419 102.61M202.16 -25.0186L100.617 -68.7208M202.16 -25.0186L236.603 81.059" stroke="#F5EDFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</div>
-							<div class="benefits__item item-benefits">
+							<div class="benefits__item item-benefits" data-fls-watcher="">
 								<div class="item-benefits__body">
 									<div class="item-benefits__name">Соціальна відповідальність:</div>
 									<div class="item-benefits__text">Допомагаємо тим, хто цього потребує найбільше.</div>
 								</div>
-								<img src="./assets/img/Benefits/05.svg" alt="Icon">
+								<img data-fls-mouse="" data-fls-mouse-dxr="" src="./assets/img/Benefits/05.svg" alt="Icon">
 								<svg width="219" height="159" viewbox="0 0 219 159" fill="none" xmlns="http://www.w3.org/2000/svg">
 									<path d="M202.16 -25.0186L23.4816 9.1773M202.16 -25.0186L162.312 135.262M202.16 -25.0186L55.8419 102.61M202.16 -25.0186L100.617 -68.7208M202.16 -25.0186L236.603 81.059" stroke="#EFEDFF" stroke-width="46" stroke-linecap="round" stroke-linejoin="round"></path>
 								</svg>
 							</div>
-							<div class="benefits__item last-benefit">
+							<div class="benefits__item last-benefit" data-fls-watcher="">
 								<h4 class="last-benefit__title">
 									Обирай
 									<b>найкраще</b>
@@ -397,14 +412,14 @@
 				</section>
 				<section class="page__course course">
 					<div class="course__container">
-						<h2 class="course__title title">
+						<h2 class="course__title title" data-fls-watcher="">
 							Обирайте
 							<span>курс,</span>
 							який підходить саме вашим потребам.
 						</h2>
 						<div class="course__items">
 							<div class="course__row">
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Light</span>
 										<picture>
@@ -427,7 +442,7 @@
 										<button data-fls-button="" type="submit" class="item-course__button button button--violet --icon-link">Приєднатись до навчання</button>
 									</div>
 								</article>
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Standart</span>
 										<picture>
@@ -450,7 +465,7 @@
 										<button data-fls-button="" type="submit" class="item-course__button button button--violet --icon-link">Приєднатись до навчання</button>
 									</div>
 								</article>
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Intensiv</span>
 										<picture>
@@ -475,7 +490,7 @@
 								</article>
 							</div>
 							<div class="course__row">
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Light</span>
 										<picture>
@@ -498,7 +513,7 @@
 										<button data-fls-button="" type="submit" class="item-course__button button button--violet --icon-link">Приєднатись до навчання</button>
 									</div>
 								</article>
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Standart</span>
 										<picture>
@@ -521,7 +536,7 @@
 										<button data-fls-button="" type="submit" class="item-course__button button button--violet --icon-link">Приєднатись до навчання</button>
 									</div>
 								</article>
-								<article class="course__item item-course">
+								<article class="course__item item-course" data-fls-watcher="">
 									<div class="item-course__label">
 										<span>Intensiv</span>
 										<picture>
@@ -550,14 +565,15 @@
 				</section>
 				<section class="page__rules rules">
 					<div class="rules__container">
-						<h2 class="rules__title title">
+						<h2 class="rules__title title" data-fls-watcher="">
 							Ваш урок — ваші
 							<span>правила:</span>
-							гнучкі формати для будь-якого графіку
+							гнучкі формати для будь-якого
+				графіку
 						</h2>
 						<div class="rules__items">
 							<div class="rules__item item-rules">
-								<div class="item-rules__content">
+								<div class="item-rules__content" data-fls-watcher="">
 									<div class="item-rules__body">
 										<h6 class="item-rules__title">Персональні уроки</h6>
 										<div class="item-rules__text text">
@@ -578,7 +594,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="item-rules__image">
+								<div class="item-rules__image" data-fls-watcher="">
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/Rules/01-600.webp" type="image/webp">
 										<source media="(max-width: 1200px)" srcset="./assets/img/Rules/01-1200.webp" type="image/webp">
@@ -594,7 +610,7 @@
 								</div>
 							</div>
 							<div class="rules__item item-rules">
-								<div class="item-rules__content">
+								<div class="item-rules__content" data-fls-watcher="">
 									<div class="item-rules__body">
 										<h6 class="item-rules__title">Персональні уроки</h6>
 										<div class="item-rules__text text">
@@ -615,7 +631,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="item-rules__image">
+								<div class="item-rules__image" data-fls-watcher="">
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/Rules/02-600.webp" type="image/webp">
 										<source media="(max-width: 1200px)" srcset="./assets/img/Rules/02-1200.webp" type="image/webp">
@@ -631,7 +647,7 @@
 								</div>
 							</div>
 							<div class="rules__item item-rules">
-								<div class="item-rules__content">
+								<div class="item-rules__content" data-fls-watcher="">
 									<div class="item-rules__body">
 										<h6 class="item-rules__title">Персональні уроки</h6>
 										<div class="item-rules__text text">
@@ -652,7 +668,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="item-rules__image">
+								<div class="item-rules__image" data-fls-watcher="">
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/Rules/03-600.webp" type="image/webp">
 										<source media="(max-width: 1200px)" srcset="./assets/img/Rules/03-1200.webp" type="image/webp">
@@ -679,12 +695,13 @@
 								<img src="./assets/img/Help/logo-near.svg" alt="Image">
 								<img src="./assets/img/Help/logo-speak.svg" alt="Image">
 							</div>
-							<h2 class="help__title title">
+							<h2 class="help__title title" data-fls-watcher="">
 								SpeakJoy та фонд Near
 								<span>допомагають</span>
 							</h2>
-							<div class="help__text text">Якщо ви потребуєте допомоги, заповніть форму для безкоштовного навчання.</div>
-							<div class="help__images">
+							<div class="help__text text" data-fls-watcher="">Якщо ви потребуєте допомоги, заповніть форму для безкоштовного
+					навчання.</div>
+							<div class="help__images" data-fls-watcher="">
 								<div class="help__image">
 									<picture>
 										<source media="(max-width: 600px)" srcset="./assets/img/Help/01-600.webp" type="image/webp">
@@ -701,7 +718,7 @@
 								</div>
 							</div>
 						</div>
-						<form action="" class="help__form form">
+						<form action="" class="help__form form" data-fls-watcher="">
 							<img class="form__icon" src="./assets/img/Help/books.svg" alt="Image">
 							<div class="form__items">
 								<div class="form__item">
@@ -749,7 +766,8 @@
 							<div class="form__item">
 								<div class="form__label" for="file">Підтверджуючий документ</div>
 								<label for="file-upload" class="file__upload file-upload-label">
-									<span class="file-upload-placeholder --icon-attach">Натисніть, щоб прикріпити файл із підтверджуючим документом</span>
+									<span class="file-upload-placeholder --icon-attach">Натисніть, щоб прикріпити файл із підтверджуючим
+							документом</span>
 									<input id="file-upload" type="file" class="file-upload-input">
 								</label>
 							</div>
@@ -773,17 +791,19 @@
 				</section>
 				<section class="page__stories stories">
 					<div class="stories__container">
-						<h2 class="stories__title title">
+						<h2 class="stories__title title" data-fls-watcher="">
 							Реальні історії
 							<span>успіху</span>
 							наших студентів
 						</h2>
 						<div class="stories__items">
-							<article class="stories__item item-stories">
+							<article class="stories__item item-stories" data-fls-watcher="">
 								<div class="item-stories__content">
 									<h5 class="item-stories__name">Олександр, програміст</h5>
 									<div class="item-stories__text">
-										Після курсу англійської для IT я отримав роботу в міжнародній компанії. Дякую SpeakJoy за якісні знання та підтримку, рекомендуватиму усім!
+										Після курсу англійської для IT я отримав роботу в
+							міжнародній компанії. Дякую SpeakJoy за якісні знання та
+							підтримку, рекомендуватиму усім!
 									</div>
 								</div>
 								<div class="item-stories__image">
@@ -794,11 +814,13 @@
 									</picture>
 								</div>
 							</article>
-							<article class="stories__item item-stories">
+							<article class="stories__item item-stories" data-fls-watcher="">
 								<div class="item-stories__content">
 									<h5 class="item-stories__name">Марія, переселенка</h5>
 									<div class="item-stories__text">
-										Як біженці, мені необхідно було вивчити німецьку. Завдяки безкоштовним урокам від фонду Near я з легкістю адаптувалась до життя в новій країні.
+										Як біженці, мені необхідно було вивчити німецьку. Завдяки
+							безкоштовним урокам від фонду Near я з легкістю
+							адаптувалась до життя в новій країні.
 									</div>
 								</div>
 								<div class="item-stories__image">
@@ -809,11 +831,13 @@
 									</picture>
 								</div>
 							</article>
-							<article class="stories__item item-stories">
+							<article class="stories__item item-stories" data-fls-watcher="">
 								<div class="item-stories__content">
 									<h5 class="item-stories__name">Андрій, ветеран війни</h5>
 									<div class="item-stories__text">
-										Безмежна вдячність SpeakJoy та фонду Near за можливість підвищення мого рівня англійської мови. Тепер я викладаю дітям у школі в своєму місті.
+										Безмежна вдячність SpeakJoy та фонду Near за можливість
+							підвищення мого рівня англійської мови. Тепер я викладаю
+							дітям у школі в своєму місті.
 									</div>
 								</div>
 								<div class="item-stories__image">
@@ -831,28 +855,69 @@
 					<div class="try__container">
 						<div class="try__wrapper">
 							<div class="try__content">
-								<h2 class="try__title title">
+								<h2 class="try__title title" data-fls-watcher="">
 									Спробуйте SpeakJoy — почніть говорити вже
-									<span>зараз</span>
+									<span>
+										<img src="./assets/img/Try/curly-arrow.svg" alt="">
+										зараз
+									</span>
 								</h2>
-								<form action="" class="help__form form form--try">
-									<div class="form__item">
-										<label class="form__label" for="name">Ваше ПІБ</label>
-										<input data-fls-input="" autocomplete="off" required type="text" name="name" data-error="Помилка" placeholder="Введіть ваше ПІБ" class="form__input input">
+								<form action="" class="try__form form-try">
+									<div class="form-try__item">
+										<label class="form__label form-try__label" for="name">Ваше ПІБ</label>
+										<input data-fls-input="" autocomplete="off" required type="text" name="name" data-error="Помилка" placeholder="Введіть ваше ПІБ" class="form-try__input input">
 									</div>
-									<div class="form__items">
-										<div class="form__item">
-											<label class="form__label" for="tel">Номер телефону</label>
+									<div class="form-try__items form__items">
+										<div class="form-try__item">
+											<label class="form__label form-try__label" for="tel">Номер телефону</label>
 											<input required data-fls-input="" autocomplete="off" type="tel" name="tel" data-error="Помилка" placeholder="Введіть ваш номер телефону" class="form__input input">
 										</div>
-										<div class="form__item">
-											<label class="form__label" for="userName">Email</label>
-											<input data-fls-input="" required autocomplete="off" type="number" name="userAge" data-error="Помилка" placeholder="Введіть ваш email" class="form__input input">
+										<div class="form-try__item">
+											<label class="form__label form-try__label" for="userName">Email</label>
+											<input data-fls-input="" required autocomplete="off" type="email" name="userAge" data-error="Помилка" placeholder="Введіть ваш email" class="form-try__input input">
 										</div>
 									</div>
-									<button data-fls-button="" type="submit" class="form__button button --icon-link">Записатись на урок</button>
+									<button data-fls-button="" type="submit" class="form-try__button button --icon-link">Записатись на урок</button>
 								</form>
 							</div>
+							<div class="try__images">
+								<div class="try__image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/Try/girl-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/Try/girl-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/Try/girl.webp">
+									</picture>
+									<img src="./assets/img/Try/shining.svg" alt="Image">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/Try/tablet-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/Try/tablet-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/Try/tablet.webp">
+									</picture>
+								</div>
+								<div class="try__airpods">
+									<picture>
+										<source media="(max-width: 600px)" srcset="./assets/img/Try/airpods-max-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/Try/airpods-max-1200.webp" type="image/webp">
+										<img alt="Image" src="./assets/img/Try/airpods-max.webp">
+									</picture>
+								</div>
+							</div>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/Try/bg-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/Try/bg-1200.webp" type="image/webp">
+								<img class="try__bg try__bg--1" alt="Image" src="./assets/img/Try/bg.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/Try/bg--2-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/Try/bg--2-1200.webp" type="image/webp">
+								<img class="try__bg try__bg--2" alt="Image" src="./assets/img/Try/bg--2.webp">
+							</picture>
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/Try/bg--2--mobile-600.webp" type="image/webp">
+								<source media="(max-width: 1200px)" srcset="./assets/img/Try/bg--2--mobile-1200.webp" type="image/webp">
+								<img class="try__bg try__bg--2--mobile" alt="Image" src="./assets/img/Try/bg--2--mobile.webp">
+							</picture>
+							<img class="try__bg try__bg--star" src="./assets/img/Try/bg-star.svg" alt="Image">
 						</div>
 					</div>
 				</section>
